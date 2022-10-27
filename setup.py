@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="pacote-analise-dio",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Renan Faria",
+    author_email="renanfariadsn@gmail.com",
+    description="Pacote para manipulação, análise e visualização de um conjunto de dados específico.",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/Diamenor/projeto-dio-pacotes",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
